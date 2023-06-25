@@ -3,6 +3,6 @@
 </script>
 
 <nav class="flex gap-10 p-6 border-b-2">
-    <a href="/" class:font-bold={$page.url.pathname == '/'}>Home</a>
-    <a href="/about" class:font-bold={$page.url.pathname == '/about'}>About</a>
+    <a href="/sveltekit-starting-app" class:font-bold={$page.url.pathname == '/sveltekit-starting-app'}>Home</a>
+    <a href="/sveltekit-starting-app/about" class:font-bold={$page.url.pathname == '/sveltekit-starting-app/about'}>About</a>
 </nav>
